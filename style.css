@@ -11,7 +11,7 @@ h1 {
 }
 
 table {
-  border-collapse: collapse;
+  
   width: 100%;
   background-color: white;
 }
@@ -25,4 +25,13 @@ th, td {
 th {
   background-color: #f57c00;
   color: white;
+}
+
+#kep1 {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  float: right;
+  border: 10px solid #caaa89;
 }
