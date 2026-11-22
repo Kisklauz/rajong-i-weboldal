@@ -1,9 +1,11 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: poppins, sans-serif;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 30px auto;
   padding: 20px;
-  background-color: #ffe0b2;
+  background-color: #101827;
+  color: white;
+
 }
 
 h1 {
@@ -13,7 +15,7 @@ h1 {
 table {
   
   width: 100%;
-  background-color: white;
+  background-color: #101827;
 }
 
 th, td {
@@ -25,6 +27,8 @@ th, td {
 th {
   background-color: #f57c00;
   color: white;
+  padding: 10px;
+  text-align: left;
 }
 
 #kep1 {
@@ -34,4 +38,6 @@ th {
   height: auto;
   float: right;
   border: 10px solid #caaa89;
+  border-radius: 10px;
+  box-shadow: inset;
 }
